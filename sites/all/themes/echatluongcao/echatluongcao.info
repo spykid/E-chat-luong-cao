@@ -1,0 +1,36 @@
+;$Id$
+
+name = Ế Chất Lượng Cao
+description = Theme for Ế Chất Lượng Cao
+screenshot = screenshot.png
+version = 0.1
+core = 7.x
+engine = phptemplate
+
+
+stylesheets[all][] = styles/3_column.css
+stylesheets[all][] = styles/featured_slide.css
+stylesheets[all][] = styles/forms.css
+stylesheets[all][] = styles/gallery.css
+stylesheets[all][] = styles/homepage.css
+stylesheets[all][] = styles/layout.css
+stylesheets[all][] = styles/navi.css
+stylesheets[all][] = styles/prettyPhoto.css
+stylesheets[all][] = styles/tables.css
+stylesheets[all][] = override.css
+
+scripts[] = scripts/jquery-prettyPhoto.js
+scripts[] = scripts/jquery-slidedeck.lite.js
+scripts[] = scripts/jquery-slidedeck.pack.lite.js
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content] = Content
+regions[header] = Header
+regions[topnav] = TopNav
+regions[footer] = Footer
+regionsr[help] = Help
+regions[highlight] = Highlight
+regions[sub_information] = Sub Information
+
+settings[shortcut_module_link] = 0

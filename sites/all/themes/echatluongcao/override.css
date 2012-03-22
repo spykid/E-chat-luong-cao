@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header {
+   padding: 25px 0 30px;
+   display: block;
+   margin: 0 auto;
+   position: relative;
+   width: 960px;
+}
+
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+#user-login-form {
+  float:right;
+  margin:8px 0 0 20px;
+  padding:0;
+}
+
+
+#user-login-form div div.form-item input  {
+  display: block; 
+  width: 165px;
+  height: 20px;
+  margin: 0 0 5px 10px;
+  padding: 0 5px 0 10px;
+  color: #5F8EC2;
+  background: url("images/form_input_long.gif") 0 0 no-repeat #2B4D71;
+  border: none;
+}
+
+#user-login-form div div.form-item-name  {
+	display: block; 
+  float: left;
+}
+
+#user-login-form div div.form-item-pass  {
+  display: block; 
+  float: left;
+}
+
+#user-login-form div div.item-list ul {
+list-style: none;
+float: left;
+font-size: 11px;
+margin: 8px -3px 0;
+text-transform: uppercase;
+ 
+}
+
+#user-login-form div div.item-list ul li {   
+	 float: right; 		
+}
+
+#user-login-form div div.item-list ul li a{   
+  color: #D7DBE0;  
+ 
+}
+
+#user-login-form div div.form-wrapper input {
+    background: url("images/form_input_long.gif") no-repeat scroll 0 0 #2B4D71;
+    border: medium none;
+    float: right;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    color: #5F8EC2;
+}
+
