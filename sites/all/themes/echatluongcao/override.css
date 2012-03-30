@@ -1,39 +1,33 @@
 @CHARSET "UTF-8";
 /* ----------------------------------------------Header-------------------------------------*/
-
 #header {
-   padding: 25px 0 30px;
-   display: block;
-   margin: 0 auto;
-   position: relative;
-   width: 960px;
+	padding: 25px 0 30px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
 }
-
 
 /* ----------------------------------------------Search Form-------------------------------------*/
 #user-login-form {
-  float:right;
-  margin:8px 0 0 20px;
-  padding:0;
+	float:right;
+	margin:8px 0 0 20px;
+	padding:0;
 }
-
-
 #user-login-form div div.form-item input  {
-  display: block; 
-  width: 165px;
-  height: 20px;
-  margin: 0 0 5px 10px;
-  padding: 0 5px 0 10px;
-  color: #5F8EC2;
-  background: url("images/form_input_long.gif") 0 0 no-repeat #2B4D71;
-  border: none;
+	display: block; 
+	width: 165px;
+	height: 20px;
+	margin: 0 0 5px 10px;
+	padding: 0 5px 0 10px;
+	color: #5F8EC2;
+	background: url("images/form_input_long.gif") 0 0 no-repeat #2B4D71;
+	border: none;
 }
-
 #user-login-form div div.form-item-name  {
 	display: block; 
-  float: left;
+	float: left;
 }
-
 #user-login-form div div.form-item-pass  {
   display: block; 
   float: left;
@@ -68,3 +62,20 @@ text-transform: uppercase;
     color: #5F8EC2;
 }
 
+
+#container h1 a {
+	color:#8199A9;
+	background-color:#F8F9F3;
+}
+#container h2{
+	display:block;
+	width:100%;
+	margin:0 0 20px 0;
+	padding:0 0 8px 0;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:5px solid #8199A9;
+}
+
+.view-content li {
+	list-style:none;

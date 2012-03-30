@@ -43,9 +43,9 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	border:none;
 	}
 /**
-Do thẻ li mặc định Drupal trả về click vào một link có định dạng sau
+Do tháº» li máº·c Ä‘á»‹nh Drupal tráº£ vá»� click vÃ o má»™t link cÃ³ Ä‘á»‹nh dáº¡ng sau
 <li class="leaf active-trail>
-nên phải thay đổi selector tương ứng
+nÃªn pháº£i thay Ä‘á»•i selector tÆ°Æ¡ng á»©ng
 */	
 
 #topnav li a:hover, #topnav li.active-trail a{
@@ -107,6 +107,7 @@ nên phải thay đổi selector tương ứng
 	margin-bottom:30px;
 	}
 
+
 #column .subnav h2{
 	margin:0 0 20px 0;
 	padding:0 0 14px 0;
@@ -142,7 +143,7 @@ nên phải thay đổi selector tương ứng
 	color:#666666;
 	background:url("../images/purple_file.gif") no-repeat 10px center #F7F7F7;
 	text-decoration:none;
-	border-bottom:1px dotted #666666;
+	
 	}
 
 #column .subnav a:hover{
