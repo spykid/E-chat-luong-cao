@@ -25,19 +25,20 @@
 <div class="wrapper row4">
   <div id="container" class="clear">
     <!-- ####################################################################################################### -->
-  <div id="content">
-    <?php if ($title): ?>
-        <h1>
-          <?php print $title; ?>
-        </h1>
-      <?php endif; ?>
+  <div id="left_column"> 
+    <div class="holder">
+	   <?php print render ($page['sidebar_first']); ?>   
+	  </div>
+   </div>
+  <div id="content">   
     <?php print render ($page['content']); ?>
   </div>
+  
   <!-- ####################################################################################################### -->
-  <div id="column">
-    <div class="subnav">
-    <?php print render ($page['sidebar_second']); ?>
-     </div>
+  <div id="right_column">
+    <div class="holder">
+      <?php print render ($page['sidebar_second']); ?>   
+    </div>
   </div>
   </div>
 </div>
